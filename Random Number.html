@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Loop in JavaScript</title>
+</head>
+
+<body>
+    <h1>
+        RandomNumbers in JavaScript
+    </h1>
+    <p id="p1"></p>
+    <script>
+        var text = "";
+        var i = 0;
+        while (i <= 1000000) {
+            text += "<br>The is $" + i;
+            i++;
+        }
+        document.getElementById("p1").innerHTML = text;
+    </script>
+</body>
+
+</html>
